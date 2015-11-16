@@ -1,0 +1,14 @@
+html, body{position: relative; height: 100%; min-height: 100%;}
+body {font-family: Roboto; font-size: 13px;}
+ 
+#main-content{padding-bottom: 70px;}
+ 
+footer{height: 50px; border-top: 1px solid #dedede;padding: 5px 0px 15px 15px;font-size: 13px;color: #999; position: absolute; bottom: 0; right: 0; left: 0;}
+ 
+.page-404-wrapper{text-align:center;padding-top:50px;min-height: 400px;}
+.page-404-wrapper .number-404{color: #191f2d;font-size: 32px;font-weight: 600;}
+.page-404-wrapper .number-404 span{display:inline-block;margin:0 5px;position:relative;}
+.page-404-wrapper .number-404 span i{color: #f39c12;font-size: 60px;position: relative;top: 8px;margin: 0 3px;}
+.page-404-wrapper .title-404{color:#2c3e50;font-size:24px;margin:0;}
+.page-404-wrapper .text-404{color:#8c97b2;font-size:16px;margin:0;}
+.page-404-wrapper .link-back{color:#3498db;font-size:16px;}
