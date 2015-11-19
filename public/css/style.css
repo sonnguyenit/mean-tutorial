@@ -3,7 +3,7 @@ body {font-family: Roboto; font-size: 13px;}
  
 #main-content{padding-bottom: 70px;}
  
-footer{height: 50px; border-top: 1px solid #dedede;padding: 5px 0px 15px 15px;font-size: 13px;color: #999; position: absolute; bottom: 0; right: 0; left: 0;}
+footer{height: 50px; border-top: 1px solid #dedede;padding: 5px 0px 15px 15px;font-size: 13px;color: #999; position: absolute; right: 0; left: 0;}
  
 .page-404-wrapper{text-align:center;padding-top:50px;min-height: 400px;}
 .page-404-wrapper .number-404{color: #191f2d;font-size: 32px;font-weight: 600;}

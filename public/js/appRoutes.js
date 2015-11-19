@@ -19,6 +19,11 @@ angular.module('appRoutes', []).config(['$stateProvider', '$urlRouterProvider', 
                 templateUrl: "views/create.html",
                 controller: 'CreatePostController'
             })
+            .state('post',{
+                url:"/post/:postId",
+                templateUrl: "views/post.html",
+                controller: 'DetailPostController'
+            })
             /*===============404 NOT FOUND================*/
             .state('404', {
                 url: "/404.html",

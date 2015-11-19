@@ -6,6 +6,6 @@ angular.module('postCtrl',[])
 .controller('DetailPostController',['$scope', '$state', '$http', '$stateParams', 'Post',
  function($scope, $state, $http,$stateParams, Post)
  {
- 
+ 	$scope.postId = $stateParams.postId;
  }
 ]);
