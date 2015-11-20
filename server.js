@@ -6,6 +6,11 @@ var routes =require('./app/routes');
 var mongoose = require('mongoose');
 var db = require('./config/database');
 mongoose.connect(db.url);
+var bodyParser = require('body-parser');
+
+app.use(bodyParser.json());
+app.use(bodyParser.json({type:'application/vnd.api+json'}));
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + '/public'));
 routes(app);

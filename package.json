@@ -12,7 +12,8 @@
   "dependencies": {
     "bower": "*",
     "express": "~4.5.1",
-    "mongoose": "~3.8.23"
+    "mongoose": "~3.8.23",
+    "body-parser": "~1.4.2"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
